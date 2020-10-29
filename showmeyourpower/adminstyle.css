@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#adminMainPic {
+    cursor: pointer;
+    position: relative;
+}
+
+#adminMainPic:hover {
+    opacity: 0.5;
+    transition: all 1s;
+}
+
+.mainContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#link {
+    position: absolute;
+    top: 42%;
+    left: 24%;
+    display: none;
+    background-color: #fff;
+    height: 20%;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.display {
+    display: flex !important;
+}
+
+.displayNone {
+    display: none !important;
+}
+
+#loginForm {
+    display: none;
+    flex-direction: column;
+    position: relative;
+    padding: 50px 30px;
+    border: 1px solid #97b3cc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+}
+
+.inputItem {
+    margin-bottom: 20px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #97b3cc;
+    border-radius: 5px;}
+
+#entryButton {
+    width: 150px;
+    height: 35px;
+    background-color: #317aba;
+    color: #fff;
+    padding: 8px 47px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 18px;
+    right: 31px;
+    cursor: pointer;
+}
+
+.entryButton:hover {
+    background-color: #1e507b;
+}
+
+.errorBorder {
+    border: 1px solid red;
+}
